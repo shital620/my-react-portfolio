@@ -104,7 +104,7 @@ export default function Profile() {
                 className="relative group rounded-2xl overflow-hidden glass-panel border border-white/5"
               >
                 <img 
-                  src="../public/assets/myPhoto1.jpg" 
+                  src="/assets/Myphoto1.jpg"
                   alt="Shital working" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   onError={(e) => {
@@ -189,6 +189,5 @@ export default function Profile() {
     </section>
   );
 }
-
 
 
