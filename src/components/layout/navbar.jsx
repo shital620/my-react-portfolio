@@ -68,7 +68,7 @@ export default function Navbar() {
           <a
             href="https://drive.google.com/file/d/1kRdhfJAiResSHC6kcUq89re2dVfvs8qE/view?usp=drive_open"
             target="_blank"
-           
+            rel="noreferrer"
             className="px-5 py-2 text-sm font-mono font-medium text-primary border border-primary/30 rounded-full hover:bg-primary/10 transition-colors"
           >
             Hire Me
@@ -114,6 +114,5 @@ export default function Navbar() {
     </header>
   );
 }
-
 
 
