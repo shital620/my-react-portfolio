@@ -64,8 +64,8 @@ export default function Contact() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg text-muted-foreground mb-12 leading-relaxed"
           >
-            I'm actively looking for new opportunities as a React Native developer.
-            Whether you have a project, a question, or just want to say hello — my inbox is always open.
+            I'm actively looking for opportunities in React Native, mobile app development, and practical full-stack work.
+            Whether you have a project, a question, or just want to connect, my inbox is always open.
           </motion.p>
 
           <motion.a

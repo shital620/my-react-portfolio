@@ -84,17 +84,16 @@ export default function Profile() {
             className="lg:col-span-12 xl:col-span-7 space-y-5 text-muted-foreground leading-relaxed"
           >
             <p className="text-lg">
-              Hello! I'm <span className="text-foreground font-semibold">Shital Kumari</span>, a React Native Developer with experience building mobile apps, responsive interfaces, and practical full-stack features. I enjoy solving real-world product problems with clean, maintainable code.
+              Hello! I'm <span className="text-foreground font-semibold">Shital Kumari</span>, a React Native Developer with experience building mobile apps, responsive interfaces, and practical full-stack features. I enjoy solving real-world product problems with clean, maintainable code and a strong focus on user experience.
             </p>
             
             <div className="grid md:grid-cols-2 gap-8 py-4">
               <div className="space-y-4">
                 <p>
-                  I am skilled in developing responsive UI, integrating REST APIs, and optimizing application performance. My journey started with a deep curiosity about systems, leading to my 
-                  MCA at RGPV, Sagar Institute of Research & Technology, Bhopal.
+                  I am skilled in developing responsive UI, integrating REST APIs, and optimizing application performance. My academic background in MCA from RGPV, Sagar Institute of Research & Technology, Bhopal, strengthened my foundation in software development and problem-solving.
                 </p>
                 <p>
-                  I am a quick learner with a strong problem-solving ability and a keen interest in full-stack development. Currently, I am focusing on building scalable, production-ready solutions like my Construction Management App and other complex enterprise tools.
+                  I am a quick learner with a strong problem-solving ability and a keen interest in full-stack development. Currently, I am focused on building scalable, production-ready solutions such as my construction management app and other practical enterprise tools.
                 </p>
               </div>
               <motion.div 

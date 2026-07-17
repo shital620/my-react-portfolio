@@ -7,7 +7,7 @@ const skills = [
   { name: "JavaScript", level: 90, category: "Language" },
   // { name: "Node.js / Express", level: 72, category: "Backend" },
   { name: "MySQL", level: 75, category: "Database" },
-  // { name: "MongoDB", level: 68, category: "Database" },
+  { name: "MongoDB", level: 68, category: "Database" },
   { name: "HTML / CSS", level: 92, category: "Web" },
   { name: "Python", level: 65, category: "Language" },
   { name: "Git / GitHub", level: 85, category: "Tools" },
@@ -17,9 +17,9 @@ const techStack = [
   { name: "React Native", color: "text-cyan-400 border-cyan-400/30 bg-cyan-400/5" },
   { name: "JavaScript", color: "text-yellow-400 border-yellow-400/30 bg-yellow-400/5" },
   { name: "React.js", color: "text-blue-400 border-blue-400/30 bg-blue-400/5" },
-  // { name: "Node.js", color: "text-green-400 border-green-400/30 bg-green-400/5" },
-  // { name: "Express.js", color: "text-gray-400 border-gray-400/30 bg-gray-400/5" },
-  // { name: "MongoDB", color: "text-emerald-400 border-emerald-400/30 bg-emerald-400/5" },
+  { name: "Node.js", color: "text-green-400 border-green-400/30 bg-green-400/5" },
+  { name: "Express.js", color: "text-gray-400 border-gray-400/30 bg-gray-400/5" },
+  { name: "MongoDB", color: "text-emerald-400 border-emerald-400/30 bg-emerald-400/5" },
   { name: "MySQL", color: "text-orange-400 border-orange-400/30 bg-orange-400/5" },
   { name: "HTML / CSS", color: "text-pink-400 border-pink-400/30 bg-pink-400/5" },
   { name: "Python", color: "text-indigo-400 border-indigo-400/30 bg-indigo-400/5" },
@@ -78,7 +78,7 @@ export default function Skills() {
             ))}
           </div>
           <div className="space-y-5">
-            <h3 className="font-mono text-sm text-muted-foreground mb-6 uppercase tracking-widest">More Skills</h3>
+            <h3 className="font-mono text-sm text-muted-foreground mb-6 uppercase tracking-widest">Backend & Tools</h3>
             {skills.slice(6).map((skill, i) => (
               <SkillBar key={skill.name} skill={skill} index={i + 6} />
             ))}

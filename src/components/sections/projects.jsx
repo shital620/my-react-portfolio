@@ -19,7 +19,7 @@ const projects = [
     tagColor: "bg-blue-500/10 text-blue-400 border-blue-500/20",
     icon: <Smartphone size={48} strokeWidth={1} />,
     iconColor: "text-blue-400",
-    link: "https://github.com/shital620/YOUR_CONSTRUCTION_REPO",
+    link: "https://github.com/shital620",
   },
   {
     title: "Zomato Clone",
@@ -37,7 +37,7 @@ const projects = [
     tagColor: "bg-orange-500/10 text-orange-400 border-orange-500/20",
     icon: <Globe size={48} strokeWidth={1} />,
     iconColor: "text-orange-400",
-    link: "https://github.com/shital620/YOUR_ZOMATO_REPO",
+    link: "https://github.com/shital620",
   },
   {
     title: "Expense Tracking App",
@@ -55,7 +55,7 @@ const projects = [
     tagColor: "bg-violet-500/10 text-violet-400 border-violet-500/20",
     icon: <Wallet size={48} strokeWidth={1} />,
     iconColor: "text-violet-400",
-    link: "https://github.com/shital620/YOUR_EXPENSE_REPO",
+    link: "https://github.com/shital620",
   },
 ];
 
@@ -124,7 +124,7 @@ export default function Projects() {
                         href={project.link}
                         className="flex items-center gap-2 text-sm font-mono text-muted-foreground hover:text-primary transition-colors group/link"
                       >
-                        <span className="group-hover/link:underline">View Project</span>
+                        <span className="group-hover/link:underline">View GitHub</span>
                         <ExternalLink size={14} className="group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
                       </a>
                     </div>

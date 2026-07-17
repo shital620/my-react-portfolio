@@ -4,8 +4,8 @@ import { ArrowDown, Sparkles } from "lucide-react";
 
 const ROLES = [
   "React Native Developer",
-  "Mobile App Builder",
-  "Full-Stack Explorer",
+  "Mobile App Developer",
+  "Full-Stack Developer",
   "React JS Developer",
 ];
 
@@ -111,8 +111,8 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.38 }}
             className="text-base md:text-lg text-muted-foreground max-w-xl leading-relaxed mb-10"
           >
-            Crafting exceptional cross-platform mobile experiences with React Native.
-            Currently building a construction management app — pixel-perfect UI to optimized performance.
+            I build scalable mobile and web applications using React Native, JavaScript, REST APIs,
+            and modern UI systems. I enjoy turning ideas into practical, polished products with strong user experience.
           </motion.p>
 
             <motion.div
@@ -175,10 +175,10 @@ export default function Hero() {
           className="mt-14 flex flex-wrap gap-6 font-mono text-xs text-muted-foreground max-w-5xl mx-auto"
         >
             {[
-              { label: "Stack", val: "React Native" },
-              { label: "Degree", val: "MCA · 8.3" },
+              { label: "Focus", val: "React Native" },
+              { label: "Degree", val: "MCA · 8.3 CGPA" },
               { label: "Experience", val: "1+ Year" },
-              { label: "Projects", val: "3 Built" },
+              { label: "Projects", val: "3+ Built" },
             ].map((stat) => (
               <div key={stat.label} className="flex items-center gap-2">
                 <span className="text-primary">▸</span>
