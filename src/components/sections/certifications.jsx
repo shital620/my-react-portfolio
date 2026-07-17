@@ -10,7 +10,7 @@ const certifications = [
     icon: <Code2 size={22} />,
     color: "text-blue-400 bg-blue-400/10 border-blue-400/20",
     tag: "Satya Kabir",
-    certificate: "/assets/certificate.jpg",
+    certificate: "https://www.linkedin.com/posts/shital-kumari-24a426252_gratitude-internshipexperience-learning-activity-7449077881785368576-mVP2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5a29oBePp7ovgaQL3JOBKoUfAP6k1vwxU",
   },
   {
     name: "MERN Internship",
@@ -19,6 +19,7 @@ const certifications = [
     icon: <Award size={22} />,
     color: "text-yellow-400 bg-yellow-400/10 border-yellow-400/20",
     tag: "EY GDS",
+    certificate: "https://www.linkedin.com/posts/shital-kumari-24a426252_completed-6-week-mern-stack-internship-with-activity-7330154957372882948-tcXg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5a29oBePp7ovgaQL3JOBKoUfAP6k1vwxU",
   },
   {
     name: "AI & Cloud",
@@ -27,6 +28,7 @@ const certifications = [
     icon: <Cloud size={22} />,
     color: "text-violet-400 bg-violet-400/10 border-violet-400/20",
     tag: "Edunet",
+    certificate: "https://www.linkedin.com/posts/shital-kumari-24a426252_internship-ai-cloudcomputing-activity-7215295116112973825-9hlB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5a29oBePp7ovgaQL3JOBKoUfAP6k1vwxU",
   },
 ];
 
