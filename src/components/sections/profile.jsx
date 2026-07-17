@@ -84,7 +84,7 @@ export default function Profile() {
             className="lg:col-span-12 xl:col-span-7 space-y-5 text-muted-foreground leading-relaxed"
           >
             <p className="text-lg">
-              Hello! I'm <span className="text-foreground font-semibold">Shital Kumari</span>, a React Native Developer with hands-on experience in building cross-platform mobile applications. I specialize in crafting fluid, native-feeling experiences that live on phones.
+              Hello! I'm <span className="text-foreground font-semibold">Shital Kumari</span>, a React Native Developer with experience building mobile apps, responsive interfaces, and practical full-stack features. I enjoy solving real-world product problems with clean, maintainable code.
             </p>
             
             <div className="grid md:grid-cols-2 gap-8 py-4">
@@ -108,11 +108,11 @@ export default function Profile() {
                   alt="Shital working" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   onError={(e) => {
-                    e.target.src = "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop";
+                    e.target.src = "../assets/Myphoto1.jpg";
                   }}
                 />
-                <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-                  <div className="font-mono text-[10px] text-primary uppercase tracking-tighter">Current Focus: React Native Development</div>
+                <div className="absolute inset-x-0 bottom-0 p-4 bg-linear-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div className="font-mono text-[10px] text-primary uppercase tracking-tighter">Current Focus: Mobile & Full-Stack Development</div>
                 </div>
               </motion.div>
             </div>
