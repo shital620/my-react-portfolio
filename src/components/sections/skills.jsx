@@ -10,7 +10,6 @@ const skills = [
   // { name: "MongoDB", level: 68, category: "Database" },
   { name: "HTML / CSS", level: 92, category: "Web" },
   { name: "Python", level: 65, category: "Language" },
-  { name: "Java", level: 60, category: "Language" },
   { name: "Git / GitHub", level: 85, category: "Tools" },
 ];
 
@@ -24,12 +23,12 @@ const techStack = [
   { name: "MySQL", color: "text-orange-400 border-orange-400/30 bg-orange-400/5" },
   { name: "HTML / CSS", color: "text-pink-400 border-pink-400/30 bg-pink-400/5" },
   { name: "Python", color: "text-indigo-400 border-indigo-400/30 bg-indigo-400/5" },
-  { name: "Java", color: "text-red-400 border-red-400/30 bg-red-400/5" },
-  { name: "C", color: "text-purple-400 border-purple-400/30 bg-purple-400/5" },
+ // { name: "Java", color: "text-red-400 border-red-400/30 bg-red-400/5" },
+  //{ name: "C", color: "text-purple-400 border-purple-400/30 bg-purple-400/5" },
   { name: "Git", color: "text-amber-400 border-amber-400/30 bg-amber-400/5" },
   { name: "GitHub", color: "text-white border-white/20 bg-white/5" },
   { name: "VS Code", color: "text-sky-400 border-sky-400/30 bg-sky-400/5" },
-  { name: "Postman", color: "text-orange-400 border-orange-400/30 bg-orange-400/5" },
+ // { name: "Postman", color: "text-orange-400 border-orange-400/30 bg-orange-400/5" },
   { name: "REST API", color: "text-violet-400 border-violet-400/30 bg-violet-400/5" },
 ];
 

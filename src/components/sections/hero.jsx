@@ -153,7 +153,7 @@ export default function Hero() {
               <div className="absolute -inset-1 bg-gradient-to-tr from-primary via-secondary to-accent rounded-[2rem] opacity-30 blur group-hover:opacity-50 transition duration-1000 group-hover:duration-200" />
               <div className="relative h-full w-full bg-background rounded-[1.8rem] border border-white/10 overflow-hidden glass-panel">
                 <img 
-                  src="../public/assets/myPhoto2.jpeg" 
+                  src="/assets/myPhoto2.jpeg" 
                   alt="Shital Kumari"
                   className="w-full h-full object-cover object-center grayscale hover:grayscale-0 transition-all duration-500 scale-105 hover:scale-110"
                   onError={(e) => {
